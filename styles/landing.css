@@ -26,6 +26,7 @@ body.landing {
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
      text-shadow: 1px 1px 0px rgb(58,23,63); /* creates a shadow underneath the text for readability over the image */
      color: rgb(16, 204, 163);
+
  }
 
 /*
@@ -229,6 +230,11 @@ body.landing {
     vertical-align: center;
 /*    margin: 10px;*/
 }
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
 .ion-star {
     font-size: 2rem;
 }

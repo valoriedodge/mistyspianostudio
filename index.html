@@ -94,7 +94,7 @@
                     <i class="ion-star"></i>
                     <i class="ion-star"></i>
                     <i class="ion-star"></i>
-                    <p>"Makenzie was amazing and so easy to work with!"</p>
+                    <p>"My kids love going to piano every week!"</p>
                     <p class="signature">-Sarah</p>
                 </div>
                 <div class="review column third">
@@ -103,7 +103,7 @@
                     <i class="ion-star"></i>
                     <i class="ion-star"></i>
                     <i class="ion-star"></i>
-                    <p>"I thought about just doing my own make-up for my wedding, or having a friend help me, but I am SO glad I decided to hire a professional. Makenzie was so sweet and did an amazing job! She listened to me and made me feel beautiful on my wedding day."</p>
+                    <p>"Misty teaches both of my kids piano and I cannot believe how much they have improved over this past year!"</p>
                     <p class="signature">-Callie</p>
                 </div>
                 <div class="review column third">
@@ -112,22 +112,23 @@
                     <i class="ion-star"></i>
                     <i class="ion-star"></i>
                     <i class="ion-star"></i>
-                    <p>"I couldn't believe what a difference it made having Makenzie do my makeup verses me doing it myself. I loved how she made me look and feel! Thanks Makenzie!"</p>
+                    <p>"Misty is so patient and fun with the kids. I would recommend her to anyone!"</p>
                     <p class="signature">-Valorie</p>
                 </div>
             </section>
         </div>
+        <div id="map"></div>
         <section id="contact"></section>
         <section class="contact container">
             <div class="contact-header">
                 <h2>Contact Me!</h2>
-                <p>I personalize every look I do so that I know my clients get exactly the effect they are dreaming of! Reach out to me today and let's work together to make sure you look your absolute best on your special occasion!</p>
+                <p>I would love to help bring the magic of music to your family. Contact me with any questions about private or group lessons today!</p>
             </div>
             <div class="form">
             <!-- Simple Form Template for Contact -->
-            <form action="https://getsimpleform.com/messages?form_api_token=6e62e65c5f5e1350547ff730de94f9a0" method="post">
+            <form method="post" action="send_mail.php">
                 <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                <input type='hidden' name='redirect_to' value='valoriedodge.github.io/PeacockArtistry2/thank-you.html>' />
+<!--                <input type='hidden' name='redirect_to' value='valoriedodge.github.io/PeacockArtistry2/thank-you.html>' />-->
                 <!-- all your input fields here.... -->
                 <label for="name">Name</label><br>
                 <input type="text" id="name" name="Name" required/><br>
@@ -142,16 +143,30 @@
         <footer>
             <div class="social">
                 <div> 
-                <a href="https://twitter.com/peac0ckartistry" target="_blank"><i class="ion-social-twitter"></i></a>
-                <a href="https://www.instagram.com/peacock.artistry/" target="_blank"><i class="ion-social-instagram"></i></a>
-                <a href="https://www.facebook.com/peacock.artistry01/" target="_blank"><i class="ion-social-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="ion-social-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="ion-social-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="ion-social-facebook"></i></a>
                 </div>
-                <p>copyright 2017 makenzie peacock
+                <p>copyright 2018 Misty Carlile
                 </p>
             </div>
         </footer>
-        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
         <script src="scripts/landing.js"></script>
+        <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var decatur = {lat: 32.804972, lng: -97.338755};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 14, center: decatur});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: decatur, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD78vy7XPXzw_290qihZetXrbcmkkfCf0s&callback=initMap">
+    </script>
 <!--        <script src="scripts/bridal.js"></script>-->
 <!--        <script src="scripts/portfolio.js"></script>-->
     </body>
