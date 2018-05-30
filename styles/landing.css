@@ -3,68 +3,45 @@ body.landing {
      background-color: rgb(16, 204, 163);
     color: #0da584;/*sets the background color to an RGB value (see below) */
 }
-h2 {
-    font-family: 'Tangerine', cursive;
-    text-align: center;
-    
+
+.main{
+    min-height: 700px;
+    background-color: white;
 }
 .hero-content {
      position: relative; /* positioning will be explained in a resource */
-     min-height: 800px;  /* hero content element must be _at least_ 600 pixels */
-     background-image: url(../assets/music.png);
+     min-height: 400px;  /* hero content element must be _at least_ 600 pixels */
+}
+/*
+.main-image{
+    width: 100%;
+    min-height: 450px;
+     background-image: url(../assets/music2.png);
      background-repeat: no-repeat;
      background-position: center top;
      background-size: cover;
  }
+*/
 
 .hero-content .hero-title {
      position: absolute;             /* positioning will be explained in a resource */
      margin-top: 100px;      
-    top: 15%;/* positioning will be explained in a resource */
+    top: 50%;/* positioning will be explained in a resource */
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
      width: 100%;                    /* makes sure the title inhabits the full width of its container */
      text-align: center;             /* aligns text in the horizontal center of the element */
-     font-size: 8rem;                /* specifies the size of the font in root em units */
+     font-size: 6rem;                /* specifies the size of the font in root em units */
      font-weight: 1000;               /* makes the font thinner or lighter weight */
-     /*text-transform: uppercase;      /* transforms the text to be all uppercase lettering */
-     letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
+     text-transform: uppercase;      /* transforms the text to be all uppercase lettering 
+/*     letter-spacing: 0.5rem;          puts 0.5 root ems worth of space between each letter */
      text-shadow: 1px 1px 0px black; /* creates a shadow underneath the text for readability over the image */
      color: rgb(16, 204, 163);
-    font-family: 'Tangerine', cursive;
+/*    font-family: 'Tangerine', cursive;*/
  }
 
-/*
- .collection-album-container {
-     position: relative;
-     margin-top: 30px;
-     margin-bottom: 20px;
-     text-align: center;
-     height: 550px;
-     box-sizing: border-box;
- }
-.collection-album-container img {
-    max-width: 80%;
-    max-height: 450px;
- }
-*/
-
-.caption{
-    background-color: #f0f0f5;
-    margin: 0px 10%;
-    margin-top: -50px;
-/*    margin-bottom: 30px;*/
-    padding: 1px;
-    padding-top: 30px;
-}
-
-.main-quote {
-    text-align: center;
-    font-family: 'Tangerine', cursive;
-    font-size: 2em;
-}
 
 .about {
     padding-top: 50px;
@@ -87,30 +64,6 @@ img{
     text-align: center;
     
 }
-.portfolio-container {    
-/*    width: 80%;*/
-    margin: auto;
-    background: white;
-}
-.portfolio {
-/*    top: -50px;*/
-    margin: 0px 50px;
-    padding-top: 3px;
-    padding-bottom: 30px;
-    position: relative;
-    font-family: 'Tangerine', cursive;
-    text-align: center;
-    font-size: 2rem;
-    background: white;
-}
-.portfolio h1{
-    margin-bottom: 0px;
-}
-.portfolio h2 {
-    clear:both;
-    margin-bottom: 0px;
-    padding-top: 20px;
-}
 
 .selling-points-container {
     background-color: #f0f0f5;
@@ -132,28 +85,6 @@ img{
  .container.narrow {
      max-width: 56rem;
  }
-/*
-.image-block {
-    text-align: center;
-    margin-bottom: 0;
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
-}
-*/
-
-/*
-.selling-points-container h3 {
-    background: #fff;
-    display: inline-block;
-    max-width: 180px;
-    margin: 0em auto;
-    margin-top: 100px;
-    padding: 1.2em 0.3em;
-    width: 100%;
-    text-transform: uppercase;
-}
-*/
  
  .point {
     height: 100%;
