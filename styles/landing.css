@@ -1,11 +1,6 @@
-lightgreen: rgb(16, 204, 163);
-darkgreen: rgb(16, 204, 163);
-lightyellow:  #ffff99;
-yellow: #ffff66;
-
 body.landing {
      background-color: rgb(16, 204, 163);
-     color: #0da584;/*sets the background color to an RGB value (see below) */
+    color: #0da584;/*sets the background color to an RGB value (see below) */
 }
 .hero-content {
      position: relative; /* positioning will be explained in a resource */
@@ -19,7 +14,7 @@ body.landing {
 .hero-content .hero-title {
      position: absolute;             /* positioning will be explained in a resource */
      margin-top: 100px;      
-     top: 10%;/* positioning will be explained in a resource */
+    top: 10%;/* positioning will be explained in a resource */
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
@@ -32,7 +27,7 @@ body.landing {
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
      text-shadow: 1px 1px 0px black; /* creates a shadow underneath the text for readability over the image */
      color: rgb(16, 204, 163);
-     font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine', cursive;
  }
 
 /*
@@ -85,7 +80,9 @@ body.landing {
     margin: 10%;
     font-family: 'Shadows Into Light', cursive;
     position: relative;
-    text-align: center;    
+    text-align: center;
+    color: rgb(58,23,63);
+    
 }
 .portfolio-container {    
 /*    width: 80%;*/
@@ -114,6 +111,7 @@ body.landing {
 }
 
 .selling-points-container {
+    color: rgba(101,18,95,1);
     background-color: #f0f0f5;
     padding-top: 30px;
      min-height: 500px;

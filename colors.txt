@@ -1,0 +1,4 @@
+lightgreen: #10cca3
+darkgreen: #0da584
+lightyellow: #ffff99
+yellow: #ffff66
