@@ -22,8 +22,8 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 .navbar {
-    color: black;
     position: fixed;
+    top: 0px;
     width: 100%;
     padding: 0.5rem;
     background-color: #ffff66;
@@ -34,13 +34,6 @@ a, a:visited, a:hover, a:active {
      -moz-transition: all 0.5s ease-in-out;
      transition: all 0.5s ease-in-out;
  }
- 
- .navbar .logo {
-     position: relative; /* positioning will be explained in a resource */
-     left: 1rem;
-     cursor: pointer;
- }
-
 
 
 .navbar-scrolled {
@@ -48,12 +41,9 @@ a, a:visited, a:hover, a:active {
 }
  
  .links-container .navbar-link:hover {
-     color: purple;
+     color: #10cca3;
  }
-.check {
-    display: table;
-    height: 100%;
-}
+
 /*
 .dropbtn {
     padding: 16px;
@@ -152,12 +142,14 @@ footer {
     padding-bottom: 10px;
 }
 @media (min-width: 0px) {
+/*
     .links-container .navbar-link {
           display: none;
      } 
      .navbar .links-container {
         display: none;
      }
+*/
 /*
     .collection-album-container {
          position: relative;

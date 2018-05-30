@@ -1,20 +1,26 @@
 body.landing {
+    text-align: center;
      background-color: rgb(16, 204, 163);
     color: #0da584;/*sets the background color to an RGB value (see below) */
 }
+h2 {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    
+}
 .hero-content {
      position: relative; /* positioning will be explained in a resource */
-     min-height: 750px;  /* hero content element must be _at least_ 600 pixels */
+     min-height: 800px;  /* hero content element must be _at least_ 600 pixels */
      background-image: url(../assets/music.png);
      background-repeat: no-repeat;
-     background-position: center center;
+     background-position: center top;
      background-size: cover;
  }
 
 .hero-content .hero-title {
      position: absolute;             /* positioning will be explained in a resource */
      margin-top: 100px;      
-    top: 10%;/* positioning will be explained in a resource */
+    top: 15%;/* positioning will be explained in a resource */
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
@@ -61,27 +67,24 @@ body.landing {
 }
 
 .about {
+    padding-top: 50px;
     background-color: white;
     min-height: 600px;
+    padding-bottom: 80px;
 }
 
-.head-shot {
-    position: relative;
-    width: 50%;
-    min-height: 600px;
-/*    float: left;*/
-    background-image: url(../assets/images/IMG_4237.JPG);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+img{
+    width:100%; 
 }
-
+.location{
+    color: white;
+    padding-top: 30px;
+}
 .bio-content {
     margin: 10%;
     font-family: 'Shadows Into Light', cursive;
     position: relative;
     text-align: center;
-    color: rgb(58,23,63);
     
 }
 .portfolio-container {    
@@ -99,7 +102,6 @@ body.landing {
     text-align: center;
     font-size: 2rem;
     background: white;
-    color: rgb(58,23,63);
 }
 .portfolio h1{
     margin-bottom: 0px;
@@ -111,10 +113,9 @@ body.landing {
 }
 
 .selling-points-container {
-    color: rgba(101,18,95,1);
     background-color: #f0f0f5;
     padding-top: 30px;
-     min-height: 500px;
+     min-height: 400px;
      position: relative;
 /*     display: table;*/
      width: 100%;
@@ -141,6 +142,7 @@ body.landing {
 }
 */
 
+/*
 .selling-points-container h3 {
     background: #fff;
     display: inline-block;
@@ -151,6 +153,7 @@ body.landing {
     width: 100%;
     text-transform: uppercase;
 }
+*/
  
  .point {
     height: 100%;
@@ -158,7 +161,10 @@ body.landing {
 /*    position: relative;*/
 /*    width: 30.3%;*/
     padding-top: 2rem;
+     padding-left: 30px;
+     padding-right: 30px;
     text-align: center;
+     background:white;
 /*    vertical-align: middle;*/
 /*    margin-left: 2%;*/
      -webkit-box-sizing: border-box;
@@ -184,18 +190,27 @@ body.landing {
      transition-delay: 0.2s;
 */
  }
- 
-
+.prices {
+    padding-bottom: 100px;
+}
+.price {
+    font-size: 2rem;
+}
+.ion-ios-person,  .ion-ios-people{
+    font-size: 6rem;
+}
 .reviews{
-    color: black;
+    color: #064739;
     background-color: #ffff99;
      position: relative;
-    margin: 70px 0px;
-/*     display: table;*/
+    margin: auto;
      width: 100%;
      -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
      box-sizing: border-box;
+}
+.rvw{
+    padding: 70px 0;
 }
 .review{
     height: 100%;
