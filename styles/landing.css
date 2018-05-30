@@ -1,6 +1,11 @@
+lightgreen: rgb(16, 204, 163);
+darkgreen: rgb(16, 204, 163);
+lightyellow:  #ffff99;
+yellow: #ffff66;
 
 body.landing {
-     background-color: rgb(16, 204, 163);  /*sets the background color to an RGB value (see below) */
+     background-color: rgb(16, 204, 163);
+     color: #0da584;/*sets the background color to an RGB value (see below) */
 }
 .hero-content {
      position: relative; /* positioning will be explained in a resource */
@@ -13,20 +18,21 @@ body.landing {
 
 .hero-content .hero-title {
      position: absolute;             /* positioning will be explained in a resource */
-     top: 40%;                       /* positioning will be explained in a resource */
+     margin-top: 100px;      
+     top: 10%;/* positioning will be explained in a resource */
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
      width: 100%;                    /* makes sure the title inhabits the full width of its container */
      text-align: center;             /* aligns text in the horizontal center of the element */
-     font-size: 4rem;                /* specifies the size of the font in root em units */
-     font-weight: 300;               /* makes the font thinner or lighter weight */
+     font-size: 8rem;                /* specifies the size of the font in root em units */
+     font-weight: 1000;               /* makes the font thinner or lighter weight */
      /*text-transform: uppercase;      /* transforms the text to be all uppercase lettering */
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
-     text-shadow: 1px 1px 0px rgb(58,23,63); /* creates a shadow underneath the text for readability over the image */
+     text-shadow: 1px 1px 0px black; /* creates a shadow underneath the text for readability over the image */
      color: rgb(16, 204, 163);
-
+     font-family: 'Tangerine', cursive;
  }
 
 /*
@@ -79,9 +85,7 @@ body.landing {
     margin: 10%;
     font-family: 'Shadows Into Light', cursive;
     position: relative;
-    text-align: center;
-    color: rgb(58,23,63);
-    
+    text-align: center;    
 }
 .portfolio-container {    
 /*    width: 80%;*/
@@ -110,7 +114,6 @@ body.landing {
 }
 
 .selling-points-container {
-    color: rgba(101,18,95,1);
     background-color: #f0f0f5;
     padding-top: 30px;
      min-height: 500px;
@@ -139,31 +142,7 @@ body.landing {
     float: none;
 }
 */
-#bridal-point{
-    background-image: url(../assets/images/bridals/Sarah4.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 300px;
-/*    width: 31%;*/
-}
 
-#fashion-point{
-    background-image: url(../assets/images/fashion/Kayla1Main.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 300px;
-/*    width: 31%;*/
-}
-#costume-point{
-    background-image: url(../assets/images/costume/Witch1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 300px;
-/*    width: 31%;*/
-}
 .selling-points-container h3 {
     background: #fff;
     display: inline-block;
@@ -210,8 +189,8 @@ body.landing {
  
 
 .reviews{
-/*    color: rgba(101,18,95,1);*/
-/*    background-color: #f0f0f5;*/
+    color: black;
+    background-color: #ffff99;
      position: relative;
     margin: 70px 0px;
 /*     display: table;*/
@@ -249,6 +228,7 @@ body.landing {
 .contact{
     width: 100%;
     padding-bottom: 35px;
+    color: white;
 }
 .contact-header {
     padding-top: 30px;
@@ -275,7 +255,6 @@ form label{
     font-size: 2rem;
     font-family: 'Tangerine', cursive;
     width:100%;
-    text-align: center;
     margin: 100px 50px;
 }
 input[type=text], input[type=email], textarea {
@@ -288,7 +267,7 @@ input[type=text], input[type=email], textarea {
 
 input[type=submit] {
     background-color: white;
-    color: rgb(58,23,63);
+    color: #0da584;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -297,5 +276,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: purple;   
+    background-color: #0da584;
+    color: white;
 }
