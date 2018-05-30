@@ -4,6 +4,11 @@ body.landing {
     color: #0da584;/*sets the background color to an RGB value (see below) */
 }
 
+.main-quote {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+}
 .main{
     min-height: 700px;
     background-color: white;
